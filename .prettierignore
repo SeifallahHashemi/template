@@ -1,0 +1,35 @@
+# node_modules
+node_modules
+
+# build outputs
+dist
+build
+.next
+out
+
+# coverage reports
+coverage
+
+# logs
+*.log
+yarn-error.log
+pnpm-debug.log
+npm-debug.log
+
+# env files
+.env
+.env.*
+
+# lock files (اختیاری اگر نمی‌خوایند Prettier روی این‌ها اجرا بشه)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# misc
+.DS_Store
+
+# public assets
+public/**/*.svg
+public/**/*.png
+public/**/*.jpg
+public/**/*.jpeg
